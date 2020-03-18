@@ -4,3 +4,10 @@ De novo drug descovery for the novel coronavirus (COVID-19) through sequence gen
 
 ## Datasets
 The SMILES dataset used for training and validation was the GDB-13 and Chembl dataset gotten from [here](http://gdb.unibe.ch/downloads/)
+
+## Contributions
+Of course contributors are very much welcomed to support on this project. As this virus scales to a pandemic and is getting out of control more than ever now we need as much hands on deck to combat it. 
+
+As a first contribution, you can fork this project, commit your name to the Contributors.md file and create your pull request, I shall be merging it as soon as I get the notification
+
+Let's work collectively to build a community that will fight for and save humanity from this.
