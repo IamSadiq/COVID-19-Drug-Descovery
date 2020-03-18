@@ -13,7 +13,7 @@ Firstly we need to covert the ligand from the SMILES format (.smi) to an AutoDoc
 How we convert it is as such:
 - We either paste the SMILES string in a text-area that is provided, or we choose the path assuming it's stored in a file.
 - We then select the input format as a SMILES (.smi) and the output format as a AutoDock PDBQT (.pdbqt), while also deciding where you want your output to go (either printed or saved to a file). 
-- Next we check the **GENERATE 3D coordinates** and click the **CONVERT** to do the conversion 
+- Next we check the **GENERATE 3D coordinates** checkbox and click the **CONVERT** to do the conversion 
 
 Next we need to load our AutoDock PDBQT (.pdbqt) file into [PyRx](https://pyrx.sourceforge.io/), a virtual screening software to finally view the 3D structure of our ligand. PyRx also uses [AutoDock Vina](http://vina.scripps.edu/) underneath. AutoDock Vina is an open-source program for doing molecular docking, and this becomes useful when we finally generate confidently, ligands with good chemical activities and we want to proceed to dock our ligand molecule with the virus genome to calculate their binding affinity.
 
