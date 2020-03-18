@@ -7,7 +7,7 @@ De novo drug descovery for the novel coronavirus (COVID-19) through sequence gen
 - The genome data for the **COVID-19** protease (FASTA format) can also be found [here](https://www.ncbi.nlm.nih.gov/genbank/)
 
 
-## Development Tools | Visualizing our Ligand Molecules and Calculating Binding Affinities
+## Development Tools | Visualizing Ligand Molecules & Calculating Binding Affinities
 To visualize the 2D or 3D structures of the generated ligand molecules (currently in the SMILES format), we need to follow a couple of steps.
 
 Firstly we need to covert the ligand from the SMILES format (.smi) to an AutoDock PDBQT format(.pdbqt), and we can do this using [Open Babel](http://openbabel.org/wiki/Main_Page), a chemical toolbox designed that speaks the many languages of chemical data. 
