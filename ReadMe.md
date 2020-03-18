@@ -19,7 +19,7 @@ How we convert it is as such:
 
 Next we need to load our AutoDock PDBQT (.pdbqt) file into [PyRx](https://pyrx.sourceforge.io/), a virtual screening software to finally view the 3D structure of our ligand. PyRx also uses [AutoDock Vina](http://vina.scripps.edu/) underneath. AutoDock Vina is an open-source program for doing molecular docking, and this becomes useful when we finally generate ligands with good chemical activities, we want to then proceed to dock our ligand molecule with the virus genome to calculate their binding affinity. 
 
-Generally, a higher binding affinity is more preferable, and is a first sign that the ligand might be a potential inhibitor for the virus. Ofcourse other metrics also come into play here, like the concentration in nanomolar (nM) of the ligand required to half-maximally occupy the binding site and activate the receptor in the process of complex formation, basically the concentration of ligand at which half of the receptor (our virus) binding sites are occupied. This is generally preferred to be very low (nM).
+Generally, a higher binding affinity is more preferable, and is a first sign that the [ligand](https://en.wikipedia.org/wiki/Ligand_(biochemistry)) might be a potential inhibitor for the virus. Ofcourse other metrics also come into play here, like the concentration in nanomolar (nM) of the ligand required to half-maximally occupy the binding site and activate the receptor in the process of complex formation, basically the concentration of ligand at which half of the receptor (our virus) binding sites are occupied. This is generally preferred to be very low (nM).
 
 
 ## Contributions
