@@ -4,7 +4,7 @@ De novo drug descovery for the novel coronavirus (COVID-19) through sequence gen
 
 ## Datasets
 - The SMILES dataset used for training and validation was the GDB-13 and Chembl [dataset](http://gdb.unibe.ch/downloads/)
-- The genome data for the [**COVID-19**](https://www.ncbi.nlm.nih.gov/genbank/) protease (FASTA format)
+- The genome [data](https://www.ncbi.nlm.nih.gov/genbank/) for the **COVID-19** protease (FASTA format)
 
 
 ## Setup Tools, Visualizing Ligand Molecules & Calculating Binding Affinities
