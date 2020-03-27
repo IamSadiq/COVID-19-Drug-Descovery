@@ -1,6 +1,6 @@
 # COVID-19 Drug Descovery
 
-De novo drug descovery for the novel coronavirus (COVID-19) through sequence generation using LSTM based RNNs. Inspired and started as a submission for the "Coronavirus Deep Learning Competition" put up by [Siraj Raval](https://www.twitter.com/sirajraval) and [Sage Health](https://www.sage-health.org/) for descovering novel ligand molecules that could eventually serve as inhibitors for the nCov-19, following the recent virus outbreak in Wuhan, Hubei China (December 2019) and the challenges behind coming up with a possible drug.
+De novo drug descovery for the novel coronavirus (COVID-19) through sequence generation using LSTM based RNNs. Inspired and started as an opensource project in an attempt to descover novel ligand molecules that could eventually serve as inhibitors for the nCov-19, following the recent virus outbreak in Wuhan, Hubei China (December 2019) and the challenges behind coming up with a possible drug.
 
 ## Datasets
 - The SMILES dataset used for training and validation was the GDB-13 and Chembl dataset gotten from [here](http://gdb.unibe.ch/downloads/)
@@ -22,7 +22,7 @@ Next we need to load our AutoDock PDBQT (.pdbqt) file into [PyRx](https://pyrx.s
 Generally, a higher binding affinity is more preferable, and is a first sign that the [ligand](https://en.wikipedia.org/wiki/Ligand_(biochemistry)) might be a potential inhibitor for the virus. Ofcourse other metrics also come into play here, like the concentration in nanomolar (nM) of the ligand required to half-maximally occupy the binding site and activate the receptor in the process of complex formation, basically the concentration of ligand at which half of the receptor (our virus) binding sites are occupied. This is generally preferred to be very low (nM).
 
 
-## Contributions
+## Pull Requests
 Of course contributors are very much welcomed to support on this project. As this virus scales to a pandemic and is getting out of control more than ever now we need as much hands on deck to combat it. 
 
 As a first contribution, you can fork this project, commit your name to the Contributors.md file and create your pull request, I shall be merging it as soon as I get the notification
