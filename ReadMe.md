@@ -3,8 +3,8 @@
 De novo drug descovery for the novel coronavirus (COVID-19) through sequence generation using LSTM based RNNs. Inspired and started as an opensource project in an attempt to descover novel ligand molecules that could eventually serve as inhibitors for the nCov-19, following the recent virus outbreak in Wuhan, Hubei China (December 2019) and the challenges behind coming up with a possible drug.
 
 ## Datasets
-- The SMILES dataset used for training and validation was the GDB-13 and Chembl dataset gotten from [here](http://gdb.unibe.ch/downloads/)
-- The genome data for the **COVID-19** protease (FASTA format) can also be found [here](https://www.ncbi.nlm.nih.gov/genbank/)
+- The SMILES dataset used for training and validation was the GDB-13 and Chembl [dataset](http://gdb.unibe.ch/downloads/)
+- The genome data for the [**COVID-19**](https://www.ncbi.nlm.nih.gov/genbank/) protease (FASTA format)
 
 
 ## Setup Tools, Visualizing Ligand Molecules & Calculating Binding Affinities
